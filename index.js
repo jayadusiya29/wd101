@@ -67,4 +67,3 @@ function displayEntries() {
 
 // Display stored entries on page load
 document.addEventListener('DOMContentLoaded', displayEntries);
-localStorage.clear();
