@@ -59,7 +59,7 @@ function displayEntries() {
             <td>${entry.email}</td>
             <td>${entry.password}</td>
             <td>${entry.dob}</td>
-            <td>${entry.terms ? 'Yes' : 'No'}</td>
+            <td>${entry.terms ? 'true' : 'false'}</td>
         `;
         tableBody.appendChild(row);
     });
